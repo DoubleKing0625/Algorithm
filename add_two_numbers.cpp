@@ -15,8 +15,7 @@
 
 using namespace std;
 
-// brute force
-// tc: o(n*n) ; sc: o(1)
+// tc: o(n) ; sc: o(1)
 list<int> add_two_numbers(list<int>& l1, list<int>& l2) {
     list<int> res;
     if (l1.empty())
