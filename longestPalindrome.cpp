@@ -125,7 +125,6 @@ string longestPalindrome3(string s){
             index = i - (length - 1) / 2;
         }
     }
-    cout << longest << ' ' << index << endl;
     return s.substr(index, longest);
 }
 
